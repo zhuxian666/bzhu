@@ -22,7 +22,6 @@ window.jQuery = function (selectorOrArrayOrTemplate) {
                 const elements2 = Array.from(elements[i].querySelectorAll(selector))
                 array = array.concat(elements2)
             }
-            array.oldApi = this
             return jQuery(array)
         }
     }
