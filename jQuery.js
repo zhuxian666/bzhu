@@ -26,3 +26,4 @@ window.jQuery = function (selectorOrArrayOrTemplate) {
         }
     }
 }
+window.$ = window.jQuery
